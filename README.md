@@ -29,3 +29,11 @@ TFT_RST_PIN = const(22)
     spi = SPI(2, baudrate=40000000, miso=Pin(TFT_MISO_PIN), mosi=Pin(TFT_MOSI_PIN), sck=Pin(TFT_CLK_PIN))
     display = Display(spi, cs=Pin(TFT_CS_PIN), dc=Pin(TFT_DC_PIN), rst=Pin(TFT_RST_PIN), width=320, height=240)
 
+
+ตัวผลที่ได้จากการแก้ไขไฟล์ demo_orientation.py 
+https://youtube.com/shorts/x6NfmAiGev4?feature=share
+
+ตัวผลที่ได้จากการแก้ไขไฟล์ demo_scrolling_marquee.py
+https://youtube.com/shorts/LxWlN_6M6gk?feature=share
+
+
